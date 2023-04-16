@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSE 110 lab2</title>
+        <link rel="shortcut icon" type="image/png" href="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png">
+    </head>
+    <body>
+        <header>
+            <h1>CSE 110 Group Meeting</h1>
+            <h2>Date: April 13, 2023</h2>
+            <h2>Important Links</h2>
+            <nav>
+                <ul>
+                    <li><a href="https://youtu.be/pMJ0NI3OkYA">HTML basics</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network(MDN)</a></li>
+                    <li><a href="https://html.spec.whatwg.org/multipage/">Official HTML Specification</a></li>
+                </ul>
+            </nav>
+            <h3>Attendance</h3>
+            <ul>
+                <li><input type="checkbox"/>Michael</li>
+                <li><input type="checkbox"/>Dwight</li>
+                <li><input type="checkbox"/>Pam</li>
+                <li><input type="checkbox"/>Angela</li>
+                <li><input type="checkbox"/><i>Jim</i></li>
+                <li><input type="checkbox"/>Stanley</li>
+                <li><input type="checkbox"/><em>Patrick Beverley</em></li>
+            </ul>
+        </header>
+
+        <hr/>
+
+        <main>
+            <h3>Agenda</h3>
+            <ol>
+                <li>Set up environment</li>
+                <li>Learn to use Git</li>
+                <li>Learn HTML</li>
+                <li><b>Play Chess</b></li>
+            </ol>
+
+            <h3>Unfinished Business</h3>
+            <div>Last time we talked about Chess openings<br> We haven't discussed which opening is our favorite</div>
+            <h3>New Business</h3>
+            <Span>We will be talking about which <strong>IDE</strong> to use and what role everyone has</Span>
+
+            <h3>Comments, Questions, Concerns</h3>
+            <p>None</p>
+
+            <h3>Diagram</h3>
+            <img src="photos/diagram.png" alt="shapes" width="450"/>
+            <h3>Audio from meeting</h3>
+            <audio controls src="photos/keyboard.mp3"></audio>
+            <h3>Video from meeting</h3>
+            <Video controls width="250" src="photos/Bird.mp4"></Video>
+            <details>
+                <summary>Details</summary>
+                Bird at the zoo.
+            </details>
+        </main>
+
+        <hr>
+    
+        <footer>
+            <h3>Schedule a meeting</h3>
+            <form>
+                <fieldset>
+                    <h3>First and Last name: <input type="text"></h3>
+                    <label for="college-choice"><h3>College:</h3></label>
+                    <input list="colleges" id="college-choice" name="college-choice">
+                    
+                    <datalist id="colleges">
+                        <option value="Warren">
+                        <option value="Sixth">
+                        <option value="Marshall">
+                        <option value="Muir">
+                        <option value="Revelle">
+                        <option value="ERC">
+                        <option value="">
+                    </datalist>
+
+                    <label for="Year-select"><h3>Select your year</h3></label>
+
+                    <select name="year" id="Year-select">
+                        <option value="">---Please choose an option---</option>
+                        <option value="Freshman">Freshman</option>
+                        <option value="Sophmore">Sophmore</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    
+                    <h3>Preferred Date: <input type="date"></h3>
+                    <h3>Reason for meeting: </h3>
+                    <textarea id="reason" name="reason" rows="5" cols="50"></textarea>
+                    <h3>Form of communication: </h3>
+                    <div>
+                        <input type="checkbox" id="In-Person" name="In-Person">
+                        <label for="In-Person">In-Person</label>
+                    </div>
+                        <input type="checkbox" id="Remote" name="Remote">
+                        <label for="Remote">Remote</label>
+                    <div>
+                        <input type="checkbox" id="Other" name="Other">
+                        <label for="Other">Other: <input type="text" id="Other"></label>
+                    </div>
+
+                    <h3>Terms of Agreement</h3>
+                    <p>Blah Blah Blah</p>
+                    <div>
+                        <input type="radio" id="I agree" name="selection" value="I agree">
+                        <label for="I agree">I agree</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="I disagree" name="selection" value="I disagree">
+                        <label for="I disagree">I disagree</label>
+                    </div>
+
+                    <br>
+                    <br>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </footer>
+
+    </body>
+</html>

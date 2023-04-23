@@ -1,6 +1,6 @@
 ---
 name: Lab Issue
-about: Describe this issue template's purpose here.
+about: Lab issues
 title: ''
 labels: ''
 assignees: ''

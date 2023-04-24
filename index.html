@@ -4,66 +4,102 @@
         <meta charset="UTF-8">
         <title>CSE 110 lab2</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png">
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 10px;
+                row-gap: 10px;
+                justify-content: center;
+                font-family:monospace
+            }
+
+            .listItem {
+                padding: 10px;
+                font-size: 25px;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <h1>CSE 110 Group Meeting</h1>
-            <h2>Date: April 13, 2023</h2>
-            <h2>Important Links</h2>
-            <nav>
-                <ul>
-                    <li><a href="https://youtu.be/pMJ0NI3OkYA">HTML basics</a></li>
-                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network(MDN)</a></li>
+        <header class="boxprop">
+            <h1 class="height">CSE 110 Group Meeting</h1>
+            <h2 class="px">Date: April 13, 2023</h2>
+            <h2 class="pt">Important Links</h2>
+            <nav class="pc">
+                <ul class="ems">
+                    <div class="boxAuto">
+                    <li class="onclick"><a href="https://youtu.be/pMJ0NI3OkYA">HTML basics</a></li>
+                    <li class="onclick"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network(MDN)</a></li>
                     <li><a href="https://html.spec.whatwg.org/multipage/">Official HTML Specification</a></li>
+                    </div>
                 </ul>
             </nav>
-            <h3>Attendance</h3>
-            <ul>
-                <li>Michael</li>
-                <li>Dwight</li>
-                <li>Pam</li>
-                <li>Angela</li>
-                <li><i>Jim</i></li>
-                <li>Stanley</li>
-                <li><em>Patrick Beverley</em></li>
-            </ul>
+            <div class="boxLong">
+                <h3>Attendance</h3>
+                <ul class="rems">
+                    <div class="paddingLong">
+                    <li class="paddingShort">Michael</li>
+                    <li>Dwight</li>
+                    <li>Pam</li>
+                    <li>Angela</li>
+                    <li><i>Jim</i></li>
+                    <li>Stanley</li>
+                    <li><em>Patrick Beverley</em></li>
+                    </div>  
+                </ul>
+            </div>
         </header>
 
         <hr>
 
         <main>
-            <h3>Agenda</h3>
-            <ol>
-                <li>Set up environment</li>
+            <div class="boxShort"><p style="color:maroon; font-size: xx-large; font-family: fantasy; text-align: center;">Agenda</p>
+            <ol class="container">
+                <li id="displayNone">Set up environment</li>
                 <li>Learn to use Git</li>
                 <li>Learn HTML</li>
                 <li><b>Play Chess</b></li>
             </ol>
+            </div>
 
             <h3>Unfinished Business</h3>
-            <div>Last time we talked about Chess openings<br> We haven't discussed which opening is our favorite</div>
+            <div class="displayBlock">Last time we talked about Chess openings<br> We haven't discussed which opening is our favorite</div>
             <h3>New Business</h3>
-            <Span>We will be talking about which <strong>IDE</strong> to use and what role everyone has</Span>
+            <div class="edit"><Span class="edit">We will be talking about which <strong>IDE</strong> to use and what role everyone has</Span></div>
 
             <h3>Comments, Questions, Concerns</h3>
             <p>None</p>
 
-            <h3>Diagram</h3>
-            <img src="photos/diagram.png" alt="shapes" width="450">
+            <h3 class="posRel">Diagram</h3>
+            <img src="photos/diagram.png" title="shapes" alt="shapes" width="450">
             <h3>Audio from meeting</h3>
             <audio controls src="photos/keyboard.mp3"></audio>
             <h3>Video from meeting</h3>
-            <Video controls width="250" src="photos/Bird.mp4"></Video>
+            <Video controls width="250" title="shapes" src="photos/Bird.mp4"></Video>
             <details>
                 <summary>Details</summary>
                 Bird at the zoo.
             </details>
+
+            <p style="font-size: 30px;color:aqua;text-align:center">Favorite IDEs</p>
+            <div class="grid-container">
+                <div class="listItem">Visual Studio Code</div>
+                <div class="listItem">Eclipse</div>
+                <div class="listItem">PyCharm</div>
+                <div class="listItem">Android Studio</div>
+                <div class="listItem">XCode</div>
+                <div class="listItem">OTHERS</div>
+            </div>
         </main>
 
         <hr>
     
-        <footer>
+        <footer class="changeBackground">
             <h3>Schedule a meeting</h3>
             <form>
                 <fieldset>
